@@ -24,6 +24,7 @@
 		1A1CA37D2ACFBB9300550C60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A1CA3842ACFBB9B00550C60 /* AudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
 		1A1CA3862ACFC1EF00550C60 /* CapturedAudioLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedAudioLevel.swift; sourceTree = "<group>"; };
+		1A1CA3892ACFC59C00550C60 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		1A1CA3742ACFBB9200550C60 /* MicLevel */ = {
 			isa = PBXGroup;
 			children = (
+				1A1CA3882ACFC56D00550C60 /* Configuration */,
 				1A1CA3842ACFBB9B00550C60 /* AudioCapture.swift */,
 				1A1CA3752ACFBB9200550C60 /* MicLevelApp.swift */,
 				1A1CA3772ACFBB9200550C60 /* ContentView.swift */,
@@ -73,6 +75,14 @@
 				1A1CA37D2ACFBB9300550C60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A1CA3882ACFC56D00550C60 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1A1CA3892ACFC59C00550C60 /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +167,7 @@
 /* Begin XCBuildConfiguration section */
 		1A1CA37F2ACFBB9300550C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1CA3892ACFC59C00550C60 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -218,6 +229,7 @@
 		};
 		1A1CA3802ACFBB9300550C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1CA3892ACFC59C00550C60 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -298,7 +310,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesdale.edu.MicLevel;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.jamesdale.edu.example.MicLevelcom.example.apple-samplecode.BreakfastFinder--SAMPLE-CODE-DISAMBIGUATOR-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -337,7 +349,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesdale.edu.MicLevel;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.jamesdale.edu.example.MicLevelcom.example.apple-samplecode.BreakfastFinder--SAMPLE-CODE-DISAMBIGUATOR-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

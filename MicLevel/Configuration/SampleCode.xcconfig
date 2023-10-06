@@ -1,0 +1,20 @@
+//
+//  SampleCode.xcconfig
+//  MicLevel
+//
+//  Created by James Dale on 6/10/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+//
+// Supplied from Apple Sample Code Projects
+//
+
+// The `SAMPLE_CODE_DISAMBIGUATOR` configuration is to make it easier to build
+// and run a sample code project. Once you set your project's development team,
+// you'll have a unique bundle identifier. This is because the bundle identifier
+// is derived based on the 'SAMPLE_CODE_DISAMBIGUATOR' value. Do not use this
+// approach in your own projects—it's only useful for sample code projects because
+// they are frequently downloaded and don't have a development team set.
+SAMPLE_CODE_DISAMBIGUATOR=${DEVELOPMENT_TEAM}
